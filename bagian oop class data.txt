@@ -1,0 +1,35 @@
+package latihan;
+
+import java.util.StringJoiner;
+
+public abstract class data {
+
+    protected String nama;
+    protected String kelamin;
+    protected StringJoiner noTlp;
+
+    public String getNama() {
+        return this.nama;
+    }
+
+    public String getKelamin() {
+        return kelamin;
+    }
+
+    public StringJoiner getnoTlp() {
+        return this.noTlp;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public void setKelamin(String kelamin) {
+        this.kelamin = kelamin;
+    }
+
+    public void setnoTlp(StringJoiner noTlp) {
+        this.noTlp = noTlp;
+    }
+
+}
